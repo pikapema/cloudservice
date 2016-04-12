@@ -3,15 +3,15 @@
   <Role name="FrontEndWebRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="Microsoft.ServiceBus.ConnectionString" value="UEndpoint=sb://cloudservice-ns-sb-kapeltol.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DjTfMcjM9AW4DMzGg8cGQWFSglReYl6Hnf2v4MxD2Wk=" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=multitiercloudservice1;AccountKey=gRX1QceemwcNACRxjqPcItMVI06EzbYqLUPzNRBtPu7znPgB/qfgJwYc+AXoMCGWN4f3UUW41hNDt5R9BiAz6w==" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://cloudservice-ns-sb-kapeltol.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YqYymXGfNRIESu28hHr3ubrOkg/KURaKYzY9pktIBk4=" />
     </ConfigurationSettings>
   </Role>
   <Role name="OrderProcessingRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://[your namespace].servicebus.windows.net;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=[your key]" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=multitiercloudservice1;AccountKey=gRX1QceemwcNACRxjqPcItMVI06EzbYqLUPzNRBtPu7znPgB/qfgJwYc+AXoMCGWN4f3UUW41hNDt5R9BiAz6w==" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://cloudservice-ns-sb-kapeltol.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YqYymXGfNRIESu28hHr3ubrOkg/KURaKYzY9pktIBk4=" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

@@ -57,10 +57,14 @@
   <ItemGroup>
     <Folder Include="FrontEndWebRoleContent\" />
     <Folder Include="OrderProcessingRoleContent\" />
+    <Folder Include="Profiles" />
   </ItemGroup>
   <ItemGroup>
     <DiagnosticsConfiguration Include="FrontEndWebRoleContent\diagnostics.wadcfgx" />
     <DiagnosticsConfiguration Include="OrderProcessingRoleContent\diagnostics.wadcfgx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishProfile Include="Profiles\multitiercloudserviceProduction.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
